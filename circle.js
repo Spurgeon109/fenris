@@ -1,3 +1,8 @@
+//This code creates a simple 3D scene using the Three.js library. 
+//It sets up a scene with a light gray background, adds a camera, and creates a colored circle mesh. 
+//The scene includes directional and ambient lighting. The circle mesh is animated to rotate continuously, 
+//and the scene is rendered in a 600x300 pixel area on the web page.
+
 import * as THREE from 'three';
 
 const scene = new THREE.Scene();
@@ -34,3 +39,4 @@ function animate() {
     renderer.render(scene, camera)
 }
 animate()
+
